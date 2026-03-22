@@ -1,3 +1,5 @@
+#' Read multe data
+#' @export
 read_multe_data <- function() {
 
   path <- system.file(
