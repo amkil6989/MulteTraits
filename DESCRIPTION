@@ -1,18 +1,24 @@
 Package: MulteTraits
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Shiny app for seed number analysis
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Amanda", "Killie",
+      email = "amkil6989@uib.no",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: A Shiny application for exploring and analyzing trait data, in this case number of seeds. Includes tools for visualization and summary of the datasets.
+License: MIT
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/amkil6989/MulteTraits
 BugReports: https://github.com/amkil6989/MulteTraits/issues
+Imports:
+    shiny,
+    ggplot2,
+    readxl
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
