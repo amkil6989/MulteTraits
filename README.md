@@ -1,10 +1,8 @@
 
 # MulteTraits
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of MulteTraits is to ...
+MulteTraits is made to explore number of seeds in multe from peatlands and heathlands, which is the topic of my master.
+It allows users to load data, filter by habitat and site, and visualize results with the use of a Shiny app.
 
 ## Installation
 
@@ -17,10 +15,13 @@ pak::pak("amkil6989/MulteTraits")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Load the package:
 
 ``` r
 library(MulteTraits)
-## basic example code
+```
+Run the Shiny app:
+``` r
+run_app()
 ```
 
