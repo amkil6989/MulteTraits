@@ -18,7 +18,7 @@ ui <- shiny::fluidPage(
 server <- function(input, output, session) {
   dataset <- shiny::reactive({
     if (is.null(input$file)) {
-      data <-MulteTraits::read_multe_data()
+      data <-read_multe_data()
     } else {
       data <- readxl::read_excel(input$file$datapath)
       names(data) <- c("site", "seeds")
