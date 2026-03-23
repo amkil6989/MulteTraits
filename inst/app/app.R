@@ -1,5 +1,5 @@
 ui <- shiny::fluidPage(
-  shiny::titlePanel("MulteTraits App"),
+  shiny::titlePanel("Seed Number Cloudberries"),
   shiny::sidebarLayout(
     shiny::sidebarPanel(
       shiny::fileInput("file", "Upload Excel file", accept = ".xlsx"),
@@ -25,7 +25,6 @@ server <- function(input, output, session) {
     }
     data$habitat <- ifelse(grepl("^P", data$site), "Peatland", "Heathland")
     data$site_id <- gsub("[A-Z]", "", data$site)
-
     data
   })
   output$site_ui <- shiny::renderUI({
@@ -65,7 +64,7 @@ server <- function(input, output, session) {
   })
   output$summary <- shiny::renderPrint({
     data <- filtered_data()
-    cat("Mean seeds:", mean(data$seeds, na.rm = TRUE), "\n")
+    cat("Mean seed number:", mean(data$seeds, na.rm = TRUE), "\n")
     cat("Observations:", nrow(data))
   })
 }
