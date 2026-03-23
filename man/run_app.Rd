@@ -2,15 +2,15 @@
 % Please edit documentation in R/run_app.R
 \name{run_app}
 \alias{run_app}
-\title{Runs the MulteTraits Shiny app}
+\title{Runs the interactive MulteTraits Shiny app}
 \usage{
 run_app()
 }
 \value{
-Runs a Shiny app
+App where you can explore and compare number of seeds in cloudberries
 }
 \description{
-Runs the MulteTraits Shiny app
+Runs the interactive MulteTraits Shiny app
 }
 \examples{
 \dontrun{

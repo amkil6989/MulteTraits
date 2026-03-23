@@ -1,6 +1,6 @@
-#' Runs the interactive MulteTraits Shiny app
+#' Runs the an interactive Shiny app
 #' @return App where you can explore and compare number of seeds in cloudberries
-#' @examples
+#' @example
 #' \dontrun{
 #' run_app()
 #' }
