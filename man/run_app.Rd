@@ -2,7 +2,7 @@
 % Please edit documentation in R/run_app.R
 \name{run_app}
 \alias{run_app}
-\title{Runs the interactive MulteTraits Shiny app}
+\title{Runs the an interactive Shiny app}
 \usage{
 run_app()
 }
@@ -10,10 +10,5 @@ run_app()
 App where you can explore and compare number of seeds in cloudberries
 }
 \description{
-Runs the interactive MulteTraits Shiny app
-}
-\examples{
-\dontrun{
-run_app()
-}
+Runs the an interactive Shiny app
 }
